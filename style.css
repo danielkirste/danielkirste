@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Economica&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+html{
+scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Economica', sans-serif;
+    background-color: #ffffff
+}
+section{
+    min-height: 100vh;
+}
+h1{
+    font-size: 350%;
+    margin: 10px;
+}
+h2{
+    font-size: 150%x;
+}
+h3{
+    font-size: 133%;
+}
+p{
+    font-size: 100%;
+}
+img{
+    width: 100%;
+}
+.jd{
+    color: #ff745c;
+    font-weight: lighter
+}
+.Ablauf{
+    background-color: white
+}
+.bg-container{
+    background-size: cover;
+    background-position-x: center;
+    display:flex;
+    flex-direction: column;
+    color: white; 
+      
+}
+.jd-container{
+    background-image: url(omg/P2061588.jpg);
+      
+}
+.jd-countdown{
+    background-image: url(omg/oder\ das.jpeg);
+    color: white;
+    font-weight: bolder;
+    
+}
+.hallo{
+    background-color: white;
+
+}
+
+.button {
+    color: white !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ff745c;
+    padding: 10px;
+    border: 4px solid white !important;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+    margin: 20px
+    }
+
+.button:hover {
+    color: #494949 !important;
+    border-radius: 50px;
+    border-color: #494949!important;
+    transition: all 0.3s ease 0s;
+        }
+.button_cont{
+    background-color: #ff745c
+}
+#countdown{
+    font-size: 4rem;
+    font-weight: bold;
+
+}
