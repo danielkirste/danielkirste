@@ -136,6 +136,14 @@ img{
     margin: 8px;
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.6);
     border: 1px solid #cccc ;
-    
-
-}
+   }
+ .roww {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px
+    }
+    .trauzeugen {
+        flex: 10%;
+        max-width: 25%;
+        padding: 0 5px;
+        }
